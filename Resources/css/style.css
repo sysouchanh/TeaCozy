@@ -1,7 +1,9 @@
 * {
   font-family: Helvetica;
   color: seashell;
+  font-size: 22px;
   background-color: black;
+
 }
 
 .logo {
@@ -46,27 +48,32 @@ nav span {
   text-align: center;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 .content {
   width: 1200px;
 }
 
 .store {
   display: block;
-  height: 500px;
-  width: 1000px;
   margin: auto;
-  align-items: center;
+  position: relative;
+  height: 700px;
+  width: 1000px;
+  padding: 20px 0px;
   text-align: center;
+
 }
 
 .store-contents {
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
   justify-content: center;
 }
 
 .box1 {
-  display: flex;
+  display: block;
   margin-top: 0px;
   height: 200px;
   width: 300px;
@@ -74,42 +81,147 @@ nav span {
   margin: 0px 10px 10px 0px;
 }
 
+.box1 img {
+  height: 200px;
+  width: 300px;
+
+}
+
 .box2 {
-  display: flex;
+  display: block;
   margin-top: 0px;
   height: 200px;
   width: 300px;
   border: 1px solid white;
-  margin: 0px 10px 10px 10px;;
+  margin: 0px 10px 10px 10px;
+}
 
+.box2 img {
+  height: 200px;
+  width: 300px;
 }
 
 .box3 {
-  display: flex;
+  display: block;
   margin-top: 0px;
   height: 200px;
   width: 300px;
   border: 1px solid white;
   margin: 0px 0px 10px 10px;
+}
 
+.box3 img {
+  height: 200px;
+  width: 300px;
 }
 
 .box4 {
-  display: flex;
+  display: block;
   margin-top: 0px;
   height: 200px;
   width: 300px;
   border: 1px solid white;
   margin: 10px 10px 0px 0px;
+}
 
+.box4 img {
+  height: 200px;
+  width: 300px;
 }
 
 .box5 {
-  display: flex;
+  display: block;
   margin-top: 0px;
   height: 200px;
   width: 300px;
   border: 1px solid white;
   margin: 10px 0px 10px 10px;
+}
 
+.box5 img {
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  background: url(../images/img-locations-background.jpg);
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  display: block;
+  position: absolute;
+}
+
+.cities {
+  font-weight: bold;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.cityname {
+  font-size: bold;
+  font-size: 22px;
+}
+
+.downtown {
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.downtown span {
+  display: flex;
+  text-align: center;
+  margin: 40px 0px;
+  justify-content: center;
+}
+
+.bayside {
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.bayside span {
+  display: flex;
+  text-align: center;
+  margin: 40px 0px;
+  justify-content: center;
+}
+
+.oakdale {
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+
+}
+
+.oakdale span {
+  display: flex;
+  text-align: center;
+  margin: 40px 0px;
+  justify-content: center;
+}
+
+.footer {
+  display: block;
+  height: 200px;
+  text-align: center;
+
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
