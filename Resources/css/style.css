@@ -1,9 +1,5 @@
 * {
-  font-family: Helvetica;
   color: seashell;
-  font-size: 22px;
-  background-color: black;
-
 }
 
 .logo {
@@ -11,11 +7,19 @@
   align-items: center;
   flex-grow: 1;
   padding-left: 10px;
-
 }
 
 .logo img {
   height: 50px;
+}
+
+main {
+  background-color: black;
+  padding-top: 85px;
+  opacity: 0.9;
+  margin: auto;
+  font-family: Helvetica;
+  font-size: 22px;
 }
 
 header {
@@ -29,6 +33,9 @@ header {
   padding-top: 8px;
   padding-bottom: 8px;
   justify-content: center;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
 }
 
 nav span {
@@ -37,26 +44,30 @@ nav span {
   padding-right: 20px
 }
 
-.mission {
+
+#mission {
   display: flex;
   background: url(../images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
   margin: auto;
   padding-top: 70px;
-  align-items: center;
   text-align: center;
 }
 
-h2 {
-  font-weight: bold;
+.mission-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.content {
-  width: 1200px;
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
 
-.store {
+#store {
   display: block;
   margin: auto;
   position: relative;
@@ -64,150 +75,108 @@ h2 {
   width: 1000px;
   padding: 20px 0px;
   text-align: center;
-
 }
 
 .store-contents {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box1 {
   display: block;
-  margin-top: 0px;
-  height: 200px;
-  width: 300px;
-  border: 1px solid white;
-  margin: 0px 10px 10px 0px;
+  padding: 5px;
 }
 
 .box1 img {
+  display: block;
   height: 200px;
-  width: 300px;
-
+  margin: 10px;
 }
 
 .box2 {
   display: block;
-  margin-top: 0px;
-  height: 200px;
-  width: 300px;
-  border: 1px solid white;
-  margin: 0px 10px 10px 10px;
+  padding: 5px;
 }
 
 .box2 img {
+  display: block;
   height: 200px;
-  width: 300px;
+  margin: 10px;
 }
 
 .box3 {
   display: block;
-  margin-top: 0px;
-  height: 200px;
-  width: 300px;
-  border: 1px solid white;
-  margin: 0px 0px 10px 10px;
+  padding: 5px;
 }
 
 .box3 img {
+  display: block;
   height: 200px;
-  width: 300px;
+  margin: 10px;
 }
 
 .box4 {
   display: block;
-  margin-top: 0px;
-  height: 200px;
-  width: 300px;
-  border: 1px solid white;
-  margin: 10px 10px 0px 0px;
+  padding: 5px;
 }
 
 .box4 img {
+  display: block;
   height: 200px;
-  width: 300px;
+  margin: 10px;
 }
 
 .box5 {
   display: block;
-  margin-top: 0px;
-  height: 200px;
-  width: 300px;
-  border: 1px solid white;
-  margin: 10px 0px 10px 10px;
+  padding: 5px;
 }
 
 .box5 img {
+  display: block;
   height: 200px;
-  width: 300px;
+  margin: 10px;
 }
 
-.locations {
+#locations {
   display: block;
   margin: auto;
   height: 500px;
-  width: 1200px;
+  width: 1100px;
   background: url(../images/img-locations-background.jpg);
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 }
 
-.location {
-  display: block;
-  position: absolute;
+.location-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: auto;
 }
 
 .cities {
   font-weight: bold;
   text-align: center;
-  display: inline-flex;
-  justify-content: space-between;
-  margin: 100px;
+  display: flex;
+  background-color: black;
+  opacity: 1.0;
+  justify-content: center;
+  margin: auto;
+  width: 900px;
 }
 
-.cityname {
-  font-size: bold;
-  font-size: 22px;
-}
-
-.downtown {
-  border: 1px solid white;
+.location {
+  display: block;
   width: 300px;
   height: 300px;
   text-align: center;
-}
-
-.downtown span {
-  display: flex;
-  text-align: center;
-  margin: 40px 0px;
   justify-content: center;
 }
 
-.bayside {
-  border: 1px solid white;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-}
-
-.bayside span {
-  display: flex;
-  text-align: center;
-  margin: 40px 0px;
-  justify-content: center;
-}
-
-.oakdale {
-  border: 1px solid white;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-
-}
-
-.oakdale span {
+.location span {
   display: flex;
   text-align: center;
   margin: 40px 0px;
@@ -218,10 +187,11 @@ h2 {
   display: block;
   height: 200px;
   text-align: center;
-
+  background-color: black;
 }
 
 .copyright {
   text-align: left;
   margin-left: 20px;
+  background-color: black;
 }
