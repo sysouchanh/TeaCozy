@@ -2,6 +2,10 @@
   color: seashell;
 }
 
+body {
+  background-color: black;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -138,7 +142,7 @@ nav span {
   margin: 10px;
 }
 
-#locations {
+.location-container {
   display: block;
   margin: auto;
   height: 500px;
@@ -149,10 +153,9 @@ nav span {
   font-weight: bold;
 }
 
-.location-container {
+.location-header {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   padding: 10px;
   margin: auto;
 }
@@ -161,11 +164,16 @@ nav span {
   font-weight: bold;
   text-align: center;
   display: flex;
-  background-color: black;
   opacity: 1.0;
   justify-content: center;
   margin: auto;
   width: 900px;
+}
+
+.location-box {
+  background-color: black;
+  margin: 0 20px;
+  height: auto;
 }
 
 .location {
@@ -183,8 +191,10 @@ nav span {
   justify-content: center;
 }
 
+
 .footer {
   display: block;
+  border: 1px solid black;
   height: 200px;
   text-align: center;
   background-color: black;
@@ -193,5 +203,6 @@ nav span {
 .copyright {
   text-align: left;
   margin-left: 20px;
+  margin-bottom: 20px;
   background-color: black;
 }
